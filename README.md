@@ -1,4 +1,4 @@
-# api_vue
+# CookMe
 
 > A Vue.js project
 
