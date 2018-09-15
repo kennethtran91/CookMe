@@ -26,7 +26,7 @@ export default {
       var self = this;
       axios.get('https://www.food2fork.com/api/search?key='+ '67cbf1c3e7e4b645cc51034511cdb7b8' +'&q='+ this.searchString)
       .then((result) => { 
-          this.result
+          this.result = result.data
           })
       .catch((err) => { this.err = err })
   }
